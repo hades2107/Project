@@ -1,0 +1,15 @@
+.stat-section{
+    height: 40rem;
+    width: 60rem;
+    border-radius:10px ;
+    background-color: aliceblue;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+h1{
+    text-align: center;
+    color: #024950;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}

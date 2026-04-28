@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+    color: #03454b;
+    font-weight: 40;
+
+}
+img{
+    height: 60px;
+    border: none;
+    position: relative;
+    right: 60px;
+    
+}
+#gmail{ 
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 35px;
+    left: 38px;
+    color: blue;
+}
+#whatsapp{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    color: blue;
+}
+
+#wap-icon #gmail-icon{
+    width: 10px;
+    position: relative;
+}
+
+.contact{
+    text-align: center;
+}
+p{
+    color: #874f41;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section{
+    background-color: aliceblue;
+    height: 300px;
+    width: 400px;
+    margin-left:37rem;
+    margin-top: 7rem;
+    border-radius: 20px;
+}

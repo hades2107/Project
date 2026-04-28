@@ -1,0 +1,70 @@
+.info{
+    display:block;
+    padding-top: 20px;
+    text-align: center;
+    font-size:22px;
+}
+
+#transaction{
+    padding: 30px;
+    text-align: center;
+    font-size:40px;
+}
+fieldset{
+    margin-left: 300px;
+    background-color: aliceblue;
+    height: 450px;
+    width: 700px;
+    position: relative;
+    left: 1rem;
+    bottom: 40px;
+    border-radius: 20px;
+    color: #874f41;
+    height: 32rem;
+}
+legend{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 60px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left:6rem ;
+    border-radius: 5px;
+    border-color: rgb(193, 193, 193);
+    border: 1.9px rgb(193, 193, 193) solid;
+}
+
+input:focus{
+    outline: none;
+    border: 2px rgb(98, 102, 137) solid;
+    border-color:rgb(100, 100, 188) ;
+    color:rgb(100, 100, 188)
+}
+fieldset{
+    width: 500px;
+    margin-top: 9rem;
+    margin-left: 33rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:.5px .5px .7px black;
+    border: none;
+}
+body{
+    background:linear-gradient(to right, #9edbe2, rgb(169, 169, 223));
+}
+#btn{
+     background-color: rgb(100, 100, 188);
+     color: white;
+     margin-top: 3rem;
+}
+#btn:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
