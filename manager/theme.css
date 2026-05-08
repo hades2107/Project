@@ -1,16 +1,16 @@
 body{
-    background:linear-gradient(to right, #bed8db, rgb(243, 246, 247));
+    background:linear-gradient(to right, #9edbe2, rgb(169, 169, 223));
 }
 .nav-bar {
     font-family:"Changa One",sans-serif;
     display: inline-block; 
     padding: 10px;
-    font-size: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 25px;
     position: relative;
     color: #024950;
     transition: 0.2s;
+
+
 }
 
 .nav-bar:hover{
@@ -31,17 +31,9 @@ body{
     background-color: #165f65;
     border-radius: 2px;
 }
-ul{
-    text-align: center;
-    background-color: #AFDDE5;
-    border-radius: 50px;
-    box-shadow: 1px .8px 6px rgb(87, 87, 87);
-    width: 120ch;
-    margin-left: 300px;
-    height: 60px;
-}
-.nav-icon{
-    height: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
+.menu{
+    height: 80px;
+    display: flex;
+    justify-content: left;
+  
 }

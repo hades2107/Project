@@ -26,6 +26,9 @@ input ,#role{
     border: 1.9px rgb(193, 193, 193) solid;
 }
 #role{
+    text-align: center;
+}
+#role{
     margin-top: 2rem;
 }
 
@@ -69,5 +72,18 @@ fieldset{
     top: 300px;
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+}
+#signup-link{
+    color: white;
+    text-decoration: none;
+}
+#signup-link:hover{
+    color: rgb(100, 100, 188);
+}
+#login-link{
+    color: white;
+    text-decoration: none;
+}
+#login-link:hover{
+    color: rgb(100, 100, 188);
 }

@@ -13,3 +13,9 @@ h1{
     font-weight: 100;
     font-size: 40px;
 }
+table tr:nth-child(even) {
+    background-color: #acadad;
+}
+table tr:nth-child(odd) {
+    background-color: aliceblue;
+}

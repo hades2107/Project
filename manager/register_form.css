@@ -4,7 +4,7 @@ legend{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 60px;
 }
-input{
+input, select{
     display: block;
     margin-bottom: 10px;
     height: 40px;

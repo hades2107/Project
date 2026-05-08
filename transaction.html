@@ -9,27 +9,49 @@
     <link rel="stylesheet" href="transaction.css">
     <script defer src="nav-bar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+
+<style>
+#logout-btn{
+    background-color:transparent;
+    color:red;
+    border: none;
+    position: relative;
+    left: 65rem;
+    top:1.5rem;
+    height:50px;
+    width:90px;
+    border-radius:5px;
+    text-shadow: .5px .5px 1px black;
+    box-shadow: none;
+    font-family: 'Changa One', cursive;
+    font-size:25px;
+}
+#logout-btn:hover{
+    cursor: pointer;
+   opacity: 80%;
+}
+</style>
 </head>
 <body>
     <nav>
-         <div class = "menu">
+         <header class = "menu">
         <ul>
             <a href="home.html" ><li class="nav-bar">Home</li></a>
             <a href="transaction.html" ><li class="nav-bar">Transaction</li></a>
-            <a href="commission.html" ><li class="nav-bar">Commission</li></a>
-            <a href="manager.html" ><li class="nav-bar">Manager</li></a>
+            <a href="history.php" ><li class="nav-bar">History</li></a>
         </ul>
+            <a href="index.php" method="post"><button id="logout-btn">Logout</button></a>
+
+        </header>
          <fieldset id="fieldset">
-        <legend>Transaction</legend>
-        <form id="Transaction_form" action="" method="post">
-            <div class="info"><input placeholder="Fullname" type="text"></div>
-            <div class="info"><input placeholder="Commission" type="number"></div>
-            <div class="info"><input placeholder="Email" type="email"></div>
-            <div class="info"><input placeholder="Password" type="password"></div>
-            <input id="btn" type="submit">
+        <legend>Record Your Daily Commission</legend>
+        <form action="trans_controller.php" method="post">
+            <input name="commission" placeholder="Amount" type="number" required>
+            <input name="password" placeholder="Password" type="password" required>
+            <input id="btn" name="submit" type="submit">
         </form>
     </fieldset>
-    </div>
+    
     </nav>
 </body>
 </html>

@@ -5,29 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manager | Home</title>
     <link rel="stylesheet" href="theme.css">
-
     <script defer src="nav-bar.js"></script>
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+
+<style>
+    #logout-btn{
+    background-color:transparent;
+    color:red;
+    border: none;
+    position: relative;
+    left: 65rem;
+    top:1.5rem;
+    height:50px;
+    width:90px;
+    border-radius:5px;
+    text-shadow: .5px .5px 1px black;
+    box-shadow: none;
+    font-family: 'Changa One', cursive;
+    font-size:25px;
+}
+#logout-btn:hover{
+    cursor: pointer;
+
+}
+</style>
 
 </head>
 <body>
     <div class = "menu">
         <ul>
             <a href="manager_home.html" ><li class="nav-bar">Home</li></a>
-            <a href="update.html" ><li class="nav-bar">Update</li></a>
-            <a href="statistics.html" ><li class="nav-bar">Statistics</li></a>
+            <a href="update.php"><li class="nav-bar">Update</li></a>
+            <a href="statistics.php"><li class="nav-bar">Statistics</li></a>
         </ul>
+
+            <a href="../index.php" method="post"><button id="logout-btn">Logout</button></a>
+
     </div>
 
     <div class="section1" style="position: relative; top: 0rem;">
         <div id="section1-text">Add New Agent</div>
-        <a href="register_form.html"><button>Enter</button></a>
+        <a href="add_user.html"><button>Enter</button></a>
     </div>
 
      <div class="section2" style="position: relative; top: 0.3rem;">
         <div id="section2-text">Statistics</div>
-        <a href="statistics.html"><button>Enter</button></a>
+        <a href="statistics.php"><button>Enter</button></a>
     </div>
     
 </body>
