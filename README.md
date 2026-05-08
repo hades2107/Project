@@ -4,7 +4,7 @@ DESCRIPTION: An application to manage agents in a business and track their daily
 Before you run the app make sure to have any localhost server installed and running in your computer (Apache Server)
 Apache comes with a package if you install Xampp
 
-                      STEPS TO SETTING UP DATABASE
+                      ---STEPS TO SETTING UP DATABASE---
 Install Xampp and start Apache + MySQL
 Open you browser and enter https://localhost/phpmyadmin/ 
 Create a database named "tracking_system"
@@ -22,3 +22,7 @@ Create 2 tables in the database; "users" & "transactions"
                                 -date; datatype DATE
                                 -email; datatype VARCHAR, set Index to UNIQUE
                                 -commission; datatype INT
+
+Pull the repository to Xampp/htdocs/ folder
+Enter localhost/project/index.php in your browser
+And you should get started
