@@ -26,3 +26,7 @@ Create 2 tables in the database; "users" & "transactions"
 Pull the repository to Xampp/htdocs/ folder
 Enter localhost/project/index.php in your browser
 And you should get started
+
+
+Students IDs: BscICT/G /C8 /02 /25
+              BscICT/G/C5/07/24
